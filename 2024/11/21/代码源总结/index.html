@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog-heldivis.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="代码源模拟赛 · 合集">
+<meta property="og:type" content="article">
+<meta property="og:title" content="代码源总结">
+<meta property="og:url" content="https://blog-heldivis.github.io/2024/11/21/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%80%BB%E7%BB%93/index.html">
+<meta property="og:site_name" content="Heldivis">
+<meta property="og:description" content="代码源模拟赛 · 合集">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-11-21T10:43:00.000Z">
+<meta property="article:modified_time" content="2024-11-22T02:24:01.420Z">
+<meta property="article:author" content="Heldivis">
+<meta property="article:tag" content="比赛总结">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog-heldivis.github.io/2024/11/21/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%80%BB%E7%BB%93/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog-heldivis.github.io/2024/11/21/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%80%BB%E7%BB%93/","path":"2024/11/21/代码源总结/","title":"代码源总结"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>代码源总结 | Heldivis</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Heldivis</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#csp-s-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-2"><span class="nav-number">1.</span> <span class="nav-text">2024 CSP-S 模拟赛 Day 2</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6"><span class="nav-number">1.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#t1"><span class="nav-number">1.1.1.</span> <span class="nav-text">T1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t2"><span class="nav-number">1.1.2.</span> <span class="nav-text">T2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t3"><span class="nav-number">1.1.3.</span> <span class="nav-text">T3</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#t4"><span class="nav-number">1.2.</span> <span class="nav-text">T4</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E"><span class="nav-number">1.3.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84%E5%90%8E-%E6%80%BB%E7%BB%93"><span class="nav-number">1.4.</span> <span class="nav-text">讲评后 &amp; 总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-csp-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-6"><span class="nav-number">2.</span> <span class="nav-text">代码源 CSP 模拟赛 Day 6</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-1"><span class="nav-number">2.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#t1-1"><span class="nav-number">2.1.1.</span> <span class="nav-text">T1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t2-1"><span class="nav-number">2.1.2.</span> <span class="nav-text">T2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t3-1"><span class="nav-number">2.1.3.</span> <span class="nav-text">T3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t4-1"><span class="nav-number">2.1.4.</span> <span class="nav-text">T4</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-1"><span class="nav-number">2.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84%E5%90%8E"><span class="nav-number">2.3.</span> <span class="nav-text">讲评后</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-csp-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-7"><span class="nav-number">3.</span> <span class="nav-text">代码源 CSP 模拟赛 Day 7</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-2"><span class="nav-number">3.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#t1-2"><span class="nav-number">3.1.1.</span> <span class="nav-text">T1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t2-2"><span class="nav-number">3.1.2.</span> <span class="nav-text">T2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t3-2"><span class="nav-number">3.1.3.</span> <span class="nav-text">T3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t4-2"><span class="nav-number">3.1.4.</span> <span class="nav-text">T4</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-2"><span class="nav-number">3.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84%E5%90%8E-1"><span class="nav-number">3.3.</span> <span class="nav-text">讲评后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.4.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-csp-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-8"><span class="nav-number">4.</span> <span class="nav-text">代码源 CSP 模拟赛 Day 8</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-3"><span class="nav-number">4.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#t1-3"><span class="nav-number">4.1.1.</span> <span class="nav-text">T1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t2-3"><span class="nav-number">4.1.2.</span> <span class="nav-text">T2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t3-3"><span class="nav-number">4.1.3.</span> <span class="nav-text">T3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t4-3"><span class="nav-number">4.1.4.</span> <span class="nav-text">T4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t1-4"><span class="nav-number">4.1.5.</span> <span class="nav-text">T1</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-3"><span class="nav-number">4.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84%E5%90%8E-2"><span class="nav-number">4.3.</span> <span class="nav-text">讲评后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93-1"><span class="nav-number">4.4.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-csp-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-9"><span class="nav-number">5.</span> <span class="nav-text">代码源 CSP 模拟赛 Day 9</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-4"><span class="nav-number">5.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#t1-5"><span class="nav-number">5.1.1.</span> <span class="nav-text">T1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t2-4"><span class="nav-number">5.1.2.</span> <span class="nav-text">T2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t3-4"><span class="nav-number">5.1.3.</span> <span class="nav-text">T3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t4-4"><span class="nav-number">5.1.4.</span> <span class="nav-text">T4</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-4"><span class="nav-number">5.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84%E5%90%8E-3"><span class="nav-number">5.3.</span> <span class="nav-text">讲评后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93-2"><span class="nav-number">5.4.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-csp-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-18"><span class="nav-number">6.</span> <span class="nav-text">代码源 CSP 模拟赛 Day 18</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-5"><span class="nav-number">6.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#a"><span class="nav-number">6.1.1.</span> <span class="nav-text">A</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#b"><span class="nav-number">6.1.2.</span> <span class="nav-text">B</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#c"><span class="nav-number">6.1.3.</span> <span class="nav-text">C</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#d"><span class="nav-number">6.1.4.</span> <span class="nav-text">D</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84"><span class="nav-number">6.2.</span> <span class="nav-text">讲评</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93-3"><span class="nav-number">6.3.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-noip-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-1"><span class="nav-number">7.</span> <span class="nav-text">代码源 NOIP 模拟赛 Day 1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-6"><span class="nav-number">7.1.</span> <span class="nav-text">赛时</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#a-1"><span class="nav-number">7.1.1.</span> <span class="nav-text">A</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#b-1"><span class="nav-number">7.1.2.</span> <span class="nav-text">B</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#c-1"><span class="nav-number">7.1.3.</span> <span class="nav-text">C</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#d-1"><span class="nav-number">7.1.4.</span> <span class="nav-text">D</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-5"><span class="nav-number">7.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84-%E6%80%BB%E7%BB%93"><span class="nav-number">7.3.</span> <span class="nav-text">讲评 &#x2F; 总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-noip-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-2"><span class="nav-number">8.</span> <span class="nav-text">代码源 NOIP 模拟赛 Day 2</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-7"><span class="nav-number">8.1.</span> <span class="nav-text">赛时</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-6"><span class="nav-number">8.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93-4"><span class="nav-number">8.3.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-noip-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-4"><span class="nav-number">9.</span> <span class="nav-text">代码源 NOIP 模拟赛 Day 4</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-8"><span class="nav-number">9.1.</span> <span class="nav-text">赛时</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-7"><span class="nav-number">9.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84-1"><span class="nav-number">9.3.</span> <span class="nav-text">讲评</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93-5"><span class="nav-number">9.4.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-noip-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-9"><span class="nav-number">10.</span> <span class="nav-text">代码源 NOIP 模拟赛 Day 9</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%BA%90-noip-%E6%A8%A1%E6%8B%9F%E8%B5%9B-day-11"><span class="nav-number">11.</span> <span class="nav-text">代码源 NOIP 模拟赛 Day 11</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E6%97%B6-9"><span class="nav-number">11.1.</span> <span class="nav-text">赛时</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%9B%E5%90%8E-8"><span class="nav-number">11.2.</span> <span class="nav-text">赛后</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%B2%E8%AF%84-2"><span class="nav-number">11.3.</span> <span class="nav-text">讲评</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93-6"><span class="nav-number">11.4.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Heldivis"
+      src="https://cdn.luogu.com.cn/upload/image_hosting/n7wo8nyv.png">
+  <p class="site-author-name" itemprop="name">Heldivis</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Heldivis" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Heldivis" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:heldivis@outlook.com" title="E-Mail → mailto:heldivis@outlook.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/732379" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;732379" rel="noopener me" target="_blank"><i class="fab fa-weibo fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://172.20.0.170/d/jzyz/user/46" title="jzyzOJ → http:&#x2F;&#x2F;172.20.0.170&#x2F;d&#x2F;jzyz&#x2F;user&#x2F;46" rel="noopener me" target="_blank"><i class="fab fa-twitter fa-fw"></i>jzyzOJ</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://codeforces.com/profile/Heldivis" title="CodeForces → https:&#x2F;&#x2F;codeforces.com&#x2F;profile&#x2F;Heldivis" rel="noopener me" target="_blank"><i class="fab fa-facebook fa-fw"></i>CodeForces</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://atcoder.jp/users/Heldivis" title="AtCoder → https:&#x2F;&#x2F;atcoder.jp&#x2F;users&#x2F;Heldivis" rel="noopener me" target="_blank"><i class="fab fa-youtube fa-fw"></i>AtCoder</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog-heldivis.github.io/2024/11/21/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.luogu.com.cn/upload/image_hosting/n7wo8nyv.png">
+      <meta itemprop="name" content="Heldivis">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Heldivis">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="代码源总结 | Heldivis">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          代码源总结
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>代码源模拟赛 · 合集</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="csp-s-模拟赛-day-2">2024 CSP-S 模拟赛 Day 2</h1>
+<p><a href='http://oj.daimayuan.top/contest/229' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>好难好难！</p>
+</blockquote>
+<h2 id="赛时">赛时</h2>
+<h3 id="t1">T1</h3>
+<p>首先看见 <span class="math inline">\(a_i\oplus a_j &lt; a_j\oplus
+a_k\)</span>，第一反应是两边同时 <span class="math inline">\(\oplus
+a_j\)</span>，得到 <span class="math inline">\(a_i&lt;a_k\)</span>，遂
+BIT 之，然后样例过不了，发现这个结论假飞了。</p>
+<p>然后考虑统计 <span
+class="math inline">\(i&lt;j&lt;k\)</span>，第一反应枚举 <span
+class="math inline">\(j\)</span>，然后计数。</p>
+<p>于是写了个 <span class="math inline">\(O(n^2\log n)\)</span>
+的部分分：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> p = <span class="number">1</span>; p &lt;= n; ++p) &#123;</span><br><span class="line">  vector&lt;<span class="type">int</span>&gt; t; <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; p; ++i) t.<span class="built_in">push_back</span>(a[i] ^ a[p]); <span class="built_in">sort</span>(t.<span class="built_in">begin</span>(), t.<span class="built_in">end</span>());</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = p + <span class="number">1</span>; i &lt;= n; ++i) res += <span class="built_in">upper_bound</span>(t.<span class="built_in">begin</span>(), t.<span class="built_in">end</span>(), (a[i] ^ a[p]) - <span class="number">1</span>) - t.<span class="built_in">begin</span>();</span><br><span class="line">&#125; <span class="built_in">printf</span>(<span class="string">&quot;%lld\n&quot;</span>, res);</span><br></pre></td></tr></table></figure>
+<p>突然考虑到异或题直接上 0/1 Trie，于是考虑维护左右两个
+Trie，然后每次同时遍历。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ll <span class="title">Calc</span><span class="params">(<span class="type">int</span> p, <span class="type">int</span> q, <span class="type">int</span> dep, <span class="type">int</span> s)</span> </span>&#123; ll tmp = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">if</span> (L.siz[p] == <span class="number">0</span> || R.siz[q] == <span class="number">0</span> || !p || !q || dep &lt; <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  tmp += L.siz[L.tr[p][((s &gt;&gt; dep) &amp; <span class="number">1</span>)]] * R.siz[R.tr[q][!((s &gt;&gt; dep) &amp; <span class="number">1</span>)]];</span><br><span class="line">  tmp += <span class="built_in">Calc</span>(L.tr[p][<span class="number">0</span>], R.tr[q][<span class="number">0</span>], dep - <span class="number">1</span>, s);</span><br><span class="line">  tmp += <span class="built_in">Calc</span>(L.tr[p][<span class="number">1</span>], R.tr[q][<span class="number">1</span>], dep - <span class="number">1</span>, s);</span><br><span class="line">  <span class="keyword">return</span> tmp; &#125;</span><br></pre></td></tr></table></figure>
+<p>但是发现时间复杂度很高，但是最坏 <span
+class="math inline">\(O(2^pn)\)</span> 能过 <span
+class="math inline">\(a_i\le2^6\)</span> 的点。</p>
+<p>然后就不会了，过。</p>
+<h3 id="t2">T2</h3>
+<p>先写暴力，然后不会。</p>
+<h3 id="t3">T3</h3>
+<p>暴力也不会。</p>
+<p>想写 Gauss 但是不会取模版本，于是写了个树上 DP 的 <span
+class="math inline">\(5\text{ pts}\)</span>。</p>
+<h2 id="t4">T4</h2>
+<p>暴力模拟求 <span class="math inline">\(f(i,j)\)</span>，然后暴力
+<span
+class="math inline">\(\sum_{i=1}^{m_a}\sum_{j=1}^{m_b}f(i,j)\)</span>。</p>
+<p>完全不会优化。（）</p>
+<h2 id="赛后">赛后</h2>
+<p>T1 就是恶心暴力分，还好过了 <span
+class="math inline">\(a_i&lt;2^6\)</span>。</p>
+<p>T2、T4 只会暴力，没啥说的。</p>
+<p>T3 写挂了，哭哭！</p>
+<p><span class="citation" data-cites="Sorato">@Sorato</span> <span
+class="citation" data-cites="liang">@liang</span> <span class="citation"
+data-cites="forgive">@forgive</span> 太强了，%%！</p>
+<h2 id="讲评后-总结">讲评后 &amp; 总结</h2>
+<ul>
+<li>T1 的思路假了，正解是枚举 <span
+class="math inline">\(k\)</span>，但是这种枚举三元组的题只想到了枚举
+<span class="math inline">\(j\)</span>。</li>
+<li>T2 的状压很显然，但是不会。要多在赛时想状压了……</li>
+</ul>
+<h1 id="代码源-csp-模拟赛-day-6">代码源 CSP 模拟赛 Day 6</h1>
+<p><a href='http://oj.daimayuan.top/contest/235' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>好难好难！</p>
+</blockquote>
+<h2 id="赛时-1">赛时</h2>
+<h3 id="t1-1">T1</h3>
+<p>显然是树上 DP。</p>
+<p>于是先写了一个 <span class="math inline">\(O(n)\)</span> 的树上
+DP，然后没过样例，发现我的 <span class="math inline">\(f_i\)</span>
+是强制选 <span class="math inline">\(i\)</span>，于是跑了 <span
+class="math inline">\(n\)</span> 次 DP，发现可过样例。</p>
+<p>于是尝试换根，但是因为一直在考虑删除 <span
+class="math inline">\(x\)</span> 节点会造成对它 <span
+class="math inline">\(fa\)</span> 那一层的其他点有影响，即删除 <span
+class="math inline">\(u\)</span> 的影响不止其字树。考虑不仅仅会有一个
+<code>n - siz[x]</code>
+的影响，还可能有一个其他导致向上的边删除增加连通块的影响。所以想了半天。</p>
+<blockquote>
+<p>赛后讲评是说“由于这是一个树”，才反应过来<strong>一个儿子只有一个父亲</strong>，所以对非子树的影响仅仅是
+<code>n - siz[x] &gt;= k</code>，并没有其他的。</p>
+<p>服了，只能说赛时真的脑子抽了。</p>
+</blockquote>
+<p>然后顺便把链的性质写了，然后去看 T2。</p>
+<h3 id="t2-1">T2</h3>
+<p>写了暴力和询问最大的两个性质，然后想了一会 <span
+class="math inline">\(a_i = i\)</span>
+的性质，发现没什么规律。于是考虑先看一下求一个怎么求。</p>
+<p>想到了二分和 <code>Check()</code>
+的写法，但是要推推式子，就先跳了，去看后边的了。</p>
+<h3 id="t3-1">T3</h3>
+<p>第一眼就是 <a
+target="_blank" rel="noopener" href="https://oi-wiki.org/math/combinatorics/derangement/">错排</a>，但是有两个限制，不太会啊。猜到答案是容斥，不太会推式子，于是写了个暴力走了。</p>
+<h3 id="t4-1">T4</h3>
+<p>dmy 部分分最足的一集。</p>
+<p>先考虑了区间 DP，记 <span class="math inline">\(f_{i,j}\)</span>
+表示区间 <span class="math inline">\([i,j]\)</span> 可能获胜的人，可由
+<span class="math inline">\(f_{i,k}\circ f_{k + 1, j}\)</span>
+转移。</p>
+<p>然后发现这样是不对的，一个区间有多个答案。于是把 <span
+class="math inline">\(f\)</span> 开成了
+<code>vector</code>，于是复杂度飞升到 <span
+class="math inline">\(O(n^5)\)</span>。</p>
+<p>考虑转移可以再开一个 <span class="math inline">\(g_{i,j}\)</span>
+表示区间 <span class="math inline">\([i,j]\)</span>
+内可能获胜的手势，也许可以降到 <span
+class="math inline">\(O(n^4)\)</span>，但是没有这个点就不写了。</p>
+<p>写完 T4 回去想了一会儿 T1，但是由于离谱的多重影响死活想不出来。</p>
+<p>然后看了一眼 T3 的 <span class="math inline">\(\lfloor
+\dfrac{a_i}{5}\rfloor = \lfloor
+\dfrac{b_i}{5}\rfloor\)</span>，感觉可做。但是发现需要容斥，就回去看 T2
+了。码了一会儿二分，发现预处理和计算好麻烦。</p>
+<p>没时间了，寄。</p>
+<h2 id="赛后-1">赛后</h2>
+<p>发现 T1、T2 过了一车，听说 T1 有一个找重心算答案和 <span
+class="math inline">\(1\)</span>（如果可以）取 <span
+class="math inline">\(\max\)</span>
+的做法。赛时毙掉了找重心的想法，这样一说感觉好对啊。</p>
+<p>出分后，<span class="math inline">\(55+20+5+25=105,\text{rk
+98}\)</span>，太菜了。<a
+target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/Sorato"><span
+class="citation" data-cites="Sorato">@Sorato</span></a> <a
+target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/konglingzhao"><span
+class="citation" data-cites="konglingzhao">@konglingzhao</span></a> <a
+target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/changziliang"><span
+class="citation" data-cites="changziliang">@changziliang</span></a>
+太强了，%%%。</p>
+<p><a target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/NineSuns"><span
+class="citation" data-cites="NineSuns">@NineSuns</span></a> AK 了，<a
+target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/ANIG"><span class="citation"
+data-cites="ANIG">@ANIG</span></a> <span
+class="math inline">\(350\)</span>，太强了，%%%。<a
+target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/QY2002"><span
+class="citation" data-cites="QY2002">@QY2002</span> / Ech0_7 /
+empty-space</a> <span
+class="math inline">\(200\)</span>，还在隐藏实力？</p>
+<p>感觉 T1 比较亏，T2 在时间安排上有一点问题，赛时的正解是可做的。</p>
+<h2 id="讲评后">讲评后</h2>
+<ul>
+<li>T1 的思路，枚举节点当作 <span class="math inline">\(lca\)</span>
+比合并两条链的思路，比我想的找链端点更好处理，也不用换根了，很简洁。</li>
+<li>T2 细节上还是有一些问题，比如 <span
+class="math inline">\((l,r)\)</span>
+的计数赛时还没有想到，应该多练一些这样的推式子的题。</li>
+<li>T3
+是大容斥，emmm，组合数学基本板子还好，但是用这玩意算题就比较困难了，还是推式子的能力不太够。状压的分也没写，亏亏亏。</li>
+<li>T4 好像是个性质，赛时真推不出来啊。</li>
+<li><del>感觉 dmy 的题感觉好离谱，全是推式子/性质题……</del></li>
+</ul>
+<h1 id="代码源-csp-模拟赛-day-7">代码源 CSP 模拟赛 Day 7</h1>
+<p><a href='http://oj.daimayuan.top/contest/237' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>最有前途的一场，但是 GG。</p>
+</blockquote>
+<h2 id="赛时-2">赛时</h2>
+<h3 id="t1-2">T1</h3>
+<p>第一眼肯定是 <span class="math inline">\(O(r^n)\)</span>
+暴力，但是显然没分拿。</p>
+<p>于是考虑到枚举答案并记忆化搜索，这样时间复杂度就到了记忆化数组的
+<span class="math inline">\(O(nr)\)</span>。</p>
+<p>于是写了个这样的 DFS：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Dfs</span><span class="params">(<span class="type">int</span> p, <span class="type">int</span> mask)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (p == n) <span class="keyword">return</span> (mask &lt;= r[n]) &amp;&amp; (++ans), <span class="built_in">void</span>();</span><br><span class="line">  <span class="keyword">if</span> (mem[p][mask] != <span class="number">-1</span>) <span class="keyword">return</span> (ans += mem[p][mask]) %= P, <span class="built_in">void</span>();</span><br><span class="line">  <span class="type">int</span> &amp;c = mem[p][mask];</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> tmask = mask; tmask; tmask = (tmask - <span class="number">1</span>) &amp; mask)</span><br><span class="line">    <span class="keyword">if</span> (tmask &lt;= r[p]) <span class="built_in">Dfs</span>(p + <span class="number">1</span>, mask ^ tmask);</span><br><span class="line">  <span class="built_in">Dfs</span>(p + <span class="number">1</span>, mask);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后造了个 <span class="math inline">\(\text{Subtask III}\)</span>
+的数据，发现 <code>Timed Out</code>。<del>原来没有记忆化上</del>。</p>
+<p>加上有了 <span
+class="math inline">\(55\text{pts}\)</span>，走了。</p>
+<h3 id="t2-2">T2</h3>
+<p>发现暴力不会写，尝试推性质，发现退不出来。</p>
+<p>于是考虑随机化，然后能过两个样例点，然后走了。</p>
+<p>发现还有 <span class="math inline">\(K=0\)</span>
+的点，考虑之后再考虑。</p>
+<h3 id="t3-2">T3</h3>
+<p>先写了 <span class="math inline">\(O(2^m)\)</span> 状压。</p>
+<p>然后发现树的性质有很多个点，考虑以后再考虑。</p>
+<p>通知题面假了，但是之前过了样例。改了代码，然后输出，发现还是过样例？抽象。</p>
+<h3 id="t4-2">T4</h3>
+<p>先写了暴力，然后写了子树的性质。</p>
+<p>不是哥们，一个线段树你就给 <span
+class="math inline">\(10\text{pts}\)</span>。</p>
+<p>恶心。</p>
+<p>然后回去写 T1 正解，但是他会 TLE？</p>
+<blockquote>
+<p>Heldivis：至少应该比纯暴力好，交这个吧。</p>
+</blockquote>
+<h2 id="赛后-2">赛后</h2>
+<p>发现 T1 从暴力 <span class="math inline">\(55\)</span> 挂了 <span
+class="math inline">\(30\)</span>，然后学长讲了讲发现时间复杂度都是
+<span class="math inline">\(O(2^n\cdot n\log r)\)</span>
+这几很疑惑。</p>
+<p>然后发现记忆化没记忆上，<code>return res</code> 没写
+<code>return f[mask][t] = res</code> 就逆天。</p>
+<p>然后发现 WA，于是考虑优化错了，于是交了没优化的 <span
+class="math inline">\(O(2^n\cdot n^2\log
+r)\)</span>，发现不仅过了甚至比有的 <span
+class="math inline">\(O(2^n\cdot n\log r)\)</span> 还快？</p>
+<p>这不亏死。</p>
+<h2 id="讲评后-1">讲评后</h2>
+<ul>
+<li>T1 的数位 DP 还是比较显然的。</li>
+<li>T2 是个打表 + 三分，比较神奇。</li>
+<li>T3 是从性质推正解的那种题，但是赛时没时间想树的性质了。</li>
+<li>T4 就很离谱，感觉 1,2 操作和 3 操作共存很难搞。</li>
+</ul>
+<h2 id="总结">总结</h2>
+<ul>
+<li>注意<strong>代码版本</strong>，要保证其他版本的能过的点最后一版提交的都能过。</li>
+<li>注意<strong>打表</strong>，有的题真的要打表。</li>
+<li>注意<strong>时间</strong>，开题过每题暴力最好控制在 <span
+class="math inline">\(60\min\)</span>
+以内（今天竟然写了俩小时！）。</li>
+<li>今天这场记忆化直接失忆了，要注意这个细节。</li>
+</ul>
+<h1 id="代码源-csp-模拟赛-day-8">代码源 CSP 模拟赛 Day 8</h1>
+<p><a href='http://oj.daimayuan.top/contest/239' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>杜瑜皓能不能不要用评测机打原神了啊！</p>
+</blockquote>
+<h2 id="赛时-3">赛时</h2>
+<h3 id="t1-3">T1</h3>
+<p>先写了个暴力
+DFS，然后考虑贪心，手玩以下样例发现很有前途，但是发现假掉了。</p>
+<p>然后考虑 DP，从后往前 DP，<span
+class="math inline">\(f(t,sum,cnt)\)</span> 表示第 <span
+class="math inline">\(t\)</span>
+个选项，后边所有选择攻击的点到当前决策点的距离是 <span
+class="math inline">\(sum\)</span>，有 <span
+class="math inline">\(cnt\)</span> 个选择攻击的点的最大值。</p>
+<p>发现很难转移，于是走了。</p>
+<h3 id="t2-3">T2</h3>
+<p>写了个 <span class="math inline">\(n^4\)</span>
+暴力，考虑优化，发现不会。</p>
+<h3 id="t3-3">T3</h3>
+<p>不会，<strong>再见</strong>。</p>
+<h3 id="t4-3">T4</h3>
+<p>不会，<strong>再见</strong>。</p>
+<blockquote>
+<p>于是，Heldivis 开始了他和 T1 的战斗（）</p>
+</blockquote>
+<h3 id="t1-4"><em>T1</em></h3>
+<p>发现上边的那个 DP 很正确，，虽然状态数量是 <span
+class="math inline">\(O(n^4)\)</span>
+的，但是用笔记化递归可以省一点。</p>
+<p>于是写了代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> ll <span class="title">Fn</span><span class="params">(<span class="type">int</span> t, <span class="type">int</span> cnt, <span class="type">int</span> poss)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (t == <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">if</span> (f[t][cnt][poss]) <span class="keyword">return</span> f[t][cnt][poss];</span><br><span class="line">  ll X = <span class="built_in">Fn</span>(t - <span class="number">1</span>, cnt, poss + cnt), Y = <span class="built_in">Fn</span>(t - <span class="number">1</span>, cnt + <span class="number">1</span>, poss + cnt + <span class="number">1</span>);</span><br><span class="line">  rec[t].<span class="built_in">emplace_back</span>(cnt, poss);</span><br><span class="line">  <span class="keyword">return</span> f[t][cnt][poss] = <span class="built_in">max</span>(X + <span class="built_in">max</span>(<span class="number">1ll</span> * b[t] * poss, <span class="number">1ll</span> * c[t] * cnt), Y + a[t]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>发现本地 NOI Linux 2.0 环境 + CPH on VSCode 显示 <code>TC 2</code> 和
+<code>TC 4</code> 都是 <code>800ms</code> <span
+class="math inline">\(\color{lightgreen}\texttt{Passed}\)</span>，于是喜悦的提交，发现
+<span
+class="math inline">\(\color{orange}\text{TLE}\)</span>。于是卡常卡了两页半。</p>
+<p>发现本地时间从 <code>800ms</code> 卡到了 <code>600ms</code>，但是还是
+<span class="math inline">\(\color{orange}\text{TLE}\)</span>。</p>
+<p>顺便写了个 T4 的 <span class="math inline">\(5\)</span> 分和 T2 的
+<span class="math inline">\(30\)</span> 分，然后再卡卡，还是卡不过。</p>
+<p>气气气！</p>
+<h2 id="赛后-3">赛后</h2>
+<p><del>老刘</del> 刘教练：你用学校评测机试试。我：我上午就是用的
+Linux。</p>
+<p><del>老刘</del> 刘教练：（指 LemonLime）开 <span
+class="math inline">\(512\text{ MB}\)</span>
+够不够？我：应该够。（然而开了 <span class="math inline">\(10^8\)</span>
+个 <code>ll</code>）</p>
+<p>结果显示 <span
+class="math inline">\(\color{pink}\text{RE}\)</span>。</p>
+<p>随后找到了 CF 原题，但是看见原题空间 <span
+class="math inline">\(256\text{ MB}\)</span>，于是开始卡空间。</p>
+<p>空间越卡，时间越快，本地从 <code>600ms</code> 卡到了
+<code>500ms</code>，交上去 <span
+class="math inline">\(\textcolor{lightgreen}{\text{AC}}\)</span>。</p>
+<p>感觉应该是清空时数组没用的地方太多，导致清空时很浪费时间。</p>
+<h2 id="讲评后-2">讲评后</h2>
+<ul>
+<li>T1 很对，好像有递推做法，可能就不会被卡了。</li>
+<li>T2 正解是根号分治，赛时想到了做法了，但是不会啊啊。</li>
+<li>T3 感觉比较模拟，但是赛时没有太考虑。</li>
+<li>T4 感觉好神奇。</li>
+</ul>
+<h2 id="总结-1">总结</h2>
+<ul>
+<li>注意实现上的常数 / 细节问题，可能不捆 Subtask 还好，要不然直接
+GG。</li>
+<li>时间分配还有点问题，感觉赛时不去卡 T1 去写 T3 会更好一点罢。</li>
+</ul>
+<h1 id="代码源-csp-模拟赛-day-9">代码源 CSP 模拟赛 Day 9</h1>
+<p><a href='http://oj.daimayuan.top/contest/241' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>比较简单的一场。</p>
+</blockquote>
+<h2 id="赛时-4">赛时</h2>
+<h3 id="t1-5">T1</h3>
+<p>第一眼发现 <span class="math inline">\(\&amp;_{i=1}^na_i\)</span>
+是没用的，可以全部删掉不管，但是发现没有用。</p>
+<p>第二眼是一个一个 AND 起来，直到为是 <span
+class="math inline">\(0\)</span>，但是被样例直接卡掉。</p>
+<p>然后发现把这俩性质一结合就太对啦，于是直接过了。</p>
+<h3 id="t2-4">T2</h3>
+<p>感觉之前见过，但是那个好像是任意一个方案就好。</p>
+<p>但是还是一样的思路，从后往前找完整的行列。</p>
+<p>但是发现没法求最少步数，所以只能回去搜索了。</p>
+<p>写了个手写 hash 记忆化，过了特和水的样例。</p>
+<h3 id="t3-4">T3</h3>
+<p>先想到了二维 DP，<span class="math inline">\(f(i,j)\)</span>
+表示第一个序列到 <span class="math inline">\(i\)</span>，第二个序列到
+<span class="math inline">\(j\)</span> 的方案。转移是 <span
+class="math inline">\(O(n)\)</span> 的。</p>
+<p>然后发现只有 <span class="math inline">\(a_i = a_j\)</span>
+的转移才有用，进而发现对于一个 <span
+class="math inline">\(i\)</span>，他的 <span
+class="math inline">\(j\)</span> 是固定的，优化到了 <span
+class="math inline">\(O(n^2)\)</span> 的总复杂度。</p>
+<h3 id="t4-4">T4</h3>
+<p>已经没有多长时间了，写了个 <span
+class="math inline">\(O(n^2)\)</span> 暴力就走了。</p>
+<h2 id="赛后-4">赛后</h2>
+<p>同机房大佬过了一车 T3，说是二维数点。</p>
+<p>然后我去看我的二维 DP：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (p[t][<span class="number">1</span>] &gt; i &amp;&amp; p[t][<span class="number">0</span>] &gt; j) <span class="built_in">Add</span>(f[p[t][<span class="number">1</span>]][p[t][<span class="number">0</span>]], f[i][j]);</span><br><span class="line"><span class="keyword">if</span> (p[t][<span class="number">0</span>] &gt; i &amp;&amp; p[t][<span class="number">1</span>] &gt; j) <span class="built_in">Add</span>(f[p[t][<span class="number">0</span>]][p[t][<span class="number">1</span>]], f[i][j]);</span><br></pre></td></tr></table></figure>
+<p>真的好像二维数点，可能 DP 方向导致不太明显。</p>
+<p><a target="_blank" rel="noopener" href="http://oj.daimayuan.top/user/profile/Hthntd"><span
+class="citation" data-cites="Hthntd">@Hthntd</span></a> 大佬过了
+T2，是贪心，感觉比较神奇，膜拜。</p>
+<h2 id="讲评后-3">讲评后</h2>
+<ul>
+<li>T1 / T3 比较水，略过。</li>
+<li>T2 的贪心证明也是搞了搞，感觉很对。然后 <code>bitset</code>
+压一下就过了。</li>
+<li>T4 的根分比较神奇，最后正解的倍增也比较神奇，回去再看看。</li>
+</ul>
+<h2 id="总结-2">总结</h2>
+<ul>
+<li>T3 这种 DP
+题，优化方向不仅要考虑二维压一维，还要想根据方程特点优化，然后上数据结构。</li>
+</ul>
+<h1 id="代码源-csp-模拟赛-day-18">代码源 CSP 模拟赛 Day 18</h1>
+<p><a href='http://oj.daimayuan.top/contest/256' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>比较简单的一场。</p>
+</blockquote>
+<h2 id="赛时-5">赛时</h2>
+<h3 id="a">A</h3>
+<p>先看了一眼，感觉 <span class="math inline">\(D=0\)</span>
+可以做个连通块内部乘积，然后发现数据范围 <span
+class="math inline">\(N=5000\)</span>，那不就是暴力吗。</p>
+<p>然后写了个 DFS 发现不过大样例，发现应该跑最短路，于是写了 <span
+class="math inline">\(n\)</span> 遍 Dijkstra。</p>
+<p>最后不放心怕被卡 <span class="math inline">\(\log\)</span>，改成
+<code>deque</code> 的 <code>0/1</code> BFS。</p>
+<h3 id="b">B</h3>
+<p>感觉按照 <span class="math inline">\(l\)</span> 排序然后贪心选 <span
+class="math inline">\(b\)</span> 中 <span class="math inline">\(l &lt;
+r_{a_i}\)</span> 最大的 <span class="math inline">\(r\)</span>
+就行了，但是不过大样例。</p>
+<p>发现会有左端点覆盖不到的地方，把 <span
+class="math inline">\(a\)</span> 按照 <span
+class="math inline">\(r\)</span>
+排序过了大样例，但是感觉不太对啊，有点慌。</p>
+<h3 id="c">C</h3>
+<p>写了个记忆化 <span class="math inline">\(O(|A|\sum |A_i|
+\cdot|A_{i+1}| )\)</span> 的暴力，想优化一下但是复杂度改不了。</p>
+<p>然后考虑容斥，发现不会容斥。</p>
+<h3 id="d">D</h3>
+<p>写了个 <span class="math inline">\(O(N^2)\)</span> 的 DP，然后考虑
+<span class="math inline">\(a_i=0\)</span>
+的性质发现上个线段树就好了。</p>
+<h2 id="讲评">讲评</h2>
+<p>A、B 就不说了。</p>
+<p>C 是根分，但是赛时没想到选最小的作为起点跑感觉唐了。</p>
+<p>D 是李超树，不会。</p>
+<h2 id="总结-3">总结</h2>
+<ul>
+<li>出分前害怕 A 写挂、B
+的贪心假了还是比较慌的。感觉应该<strong>对拍</strong>一下的。</li>
+<li>C
+<strong>时间复杂度</strong>没<strong>分析</strong>准，要不然应该能看出来第一项越小越好的。</li>
+</ul>
+<h1 id="代码源-noip-模拟赛-day-1">代码源 NOIP 模拟赛 Day 1</h1>
+<p><a href='http://oj.daimayuan.top/contest/264' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>锟斤拷，唐唐唐</p>
+</blockquote>
+<h2 id="赛时-6">赛时</h2>
+<h3 id="a-1">A</h3>
+<p>第一眼看，没什么思路，先玩了一下样例，发现好像 <code>5 00011</code>
+这个样例输出的 <span
+class="math inline">\(10=5\times2\)</span>，大胆猜测：连续相同若干个字符形成的一个串互相独立。</p>
+<p>然后不太敢写，玩了一下样例，发现不管怎么移动都是 <code>123456</code>
+在前六位，剩下的在后边四位，感觉有一个性质就是他这个数字排序后只能在相同字符串内交换，否则一定不合法。</p>
+<p>然后码了个暴力，跑了一下小数据发现确实是对的，然后发现显然
+<code>000</code> 和 <code>111</code>
+的贡献相同，于是打了个表发现这个贡献是 <span
+class="math inline">\(\{1,2,5,14,42,132\}\)</span>，欸这不是 Catalan
+数吗，然后就按照这样写，发现过了样例。</p>
+<h3 id="b-1">B</h3>
+<p>先打了个 <span class="math inline">\(sg\)</span>
+函数的表，发现对于一个 <span class="math inline">\(x\)</span> 有 <span
+class="math inline">\(sg_x(i)=i\bmod(x+1)\)</span>，所以直接 <span
+class="math inline">\(O(n^2)\)</span> 模拟就有了 <span
+class="math inline">\(n\le5000\)</span> 的 <span
+class="math inline">\(30\text{ pts}\)</span>。</p>
+<p>然后考虑一下这个取模的性质，感觉很可以根分
+(?)。然后考虑了一下，对于小于根号的直接暴力，然后对于大于根号的好像可以枚举倍数然后用个数据结构什么维护一下，感觉很对，考虑权值线段树，但是发现它这个异或的运算不好同时减去一个偏移量（当时脑子抽掉了感觉
+<span class="math inline">\({(x+d)\operatorname{xor}(y+d)\to
+x\operatorname{xor}y}\)</span> 可以处理一下 <span
+class="math inline">\(\operatorname{xor}d\)</span>
+什么的算出来），所以寄掉了。</p>
+<p>然后发现有一个 <span class="math inline">\(n\le50000\)</span>
+的点，欸这个数据范围非常暧昧啊，感觉是留给手法的，所以加了异或的去重和对于
+<span class="math inline">\(a_i\lt x+1\)</span>
+提前处理的优化交了，但是本地造的极限数据跑了 <span
+class="math inline">\(2600^{+}\text{ms}\)</span>，感觉不太可过。遂换题。</p>
+<h3 id="c-1">C</h3>
+<p>第一眼感觉第一问第二问没关系，因为没看见让“求出 <span
+class="math inline">\(p\)</span>
+在所有<strong>合法</strong>排列中字典序的排名”，以为直接<a
+target="_blank" rel="noopener" href="https://baike.baidu.com/item/康托展开/7968428">康托展开<sup><span
+class="citation" data-cites="PinesppleSummer">@PinesppleSummer</span>
+大佬赛后告诉我了这个词，%%%</sup></a>就可以了，然后很快会了第二问。</p>
+<p>考虑对于 <span class="math inline">\(n\le20\)</span>
+状压，发现不会，考虑对于 <span class="math inline">\(n\le 10\)</span>
+枚举全排列，发现第二问寄了，然后睁开眼睛发现了<strong>合法</strong>二字，于是改了一下计数就好了。</p>
+<p>然后考虑 <span class="math inline">\(f_i=1\)</span>，发现对于 <span
+class="math inline">\(q_1=1\)</span>，<span
+class="math inline">\(p=q\)</span>；否则 <span
+class="math inline">\(p_i=\left\{\begin{align}&amp;1&amp;i=1\\&amp;n-i&amp;i\neq
+1\end{align}\right.\)</span>，然后所有方案都是合法的，按照上边那个算就好了。</p>
+<p>因为 <span class="math inline">\(n\le5000\)</span>，所以可以 <span
+class="math inline">\(O(n^2)\)</span> 算排名，但是直接上树状数组了……</p>
+<h3 id="d-1">D</h3>
+<p>考虑 DP，<span class="math inline">\(f(i,j)\)</span> 表示前 <span
+class="math inline">\(i\)</span> 个数，操作 <span
+class="math inline">\(k\)</span> 次的最小最大值。</p>
+<p>发现这个最小最大值很难转移，样例都难过，于是 ban 掉。</p>
+<p>考虑一个贪心，每次删去最大子序列的值就好了。</p>
+<p>然后眼睛再次瞎掉，没看见要求子序列非空，<span
+class="math inline">\(mx\)</span> 初值给的 <span
+class="math inline">\(0\)</span>，导致样例还是过不去，改了就过样例了。</p>
+<h2 id="赛后-5">赛后</h2>
+<p><em>A</em> 听说 <a href=""><span class="citation"
+data-cites="R_Lydic">@R_Lydic</span></a> 和 <a href=""><span
+class="citation" data-cites="Sorato">@Sorato</span></a> 等大佬从 DP
+推了结论，好像还有格路计数推的，%%%。但是 <a href=""><span
+class="citation" data-cites="R_Lydic">@R_Lydic</span></a>
+分段假了导致爆零，<span class="sha">菜</span> 引以为戒。</p>
+<p><strong>D 发现没取模到正数，15 分啊！</strong></p>
+<h2 id="讲评-总结">讲评 / 总结</h2>
+<ul>
+<li><em>A</em> 是一个特殊图的拓扑数计数，就是这个结论。</li>
+<li><em>B</em> 是按照倍数分开做不太会……</li>
+<li><em>C</em>
+是有个讨论，即：<strong>枚举前边相同的部分，对不同的第一位进行讨论</strong>，然后上数据结构。</li>
+<li><em>D</em>
+炸了，赛时要造一些<strong>边界数据</strong>卡一下自己。</li>
+</ul>
+<h1 id="代码源-noip-模拟赛-day-2">代码源 NOIP 模拟赛 Day 2</h1>
+<p><a href='http://oj.daimayuan.top/contest/267' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>“我们普遍认为，<a href=""><span class="citation"
+data-cites="Sorato">@Sorato</span></a> 有 IOI <span
+class="math inline">\(\color{yellow}\text{Au}\)</span> 的实力。”</p>
+</blockquote>
+<blockquote>
+<p>更唐了，挂的分比得的分多。</p>
+</blockquote>
+<h2 id="赛时-7">赛时</h2>
+<p>先看了 <em>A</em>
+题，感觉不太会，胡了几个瞎构造，只能过小样例。不会了，写了个暴力走了。</p>
+<p>然后看 <em>B</em> 题，还不会啊，一看暴力只有 <span
+class="math inline">\(10\)</span> 分，先走了看 <em>C</em> 去了。</p>
+<p>看见 <a href=""><span class="citation"
+data-cites="Sorato">@Sorato</span></a> 已经过了两道题了，很慌。看
+<em>C</em> 想了一个 DP，<span class="math inline">\(f(i,j)\)</span>
+表示两行走到 <span class="math inline">\(i,j\)</span> 的方案，写了发现是
+<span class="math inline">\(O(n^3)\)</span>
+的，先写了。然后发现所有正数一定是选的，考虑了一下负数的转移，发现没太大用。</p>
+<p>去看 <em>D</em> 了，发现是个期望，胡了个暴力发现跑的飞快。看到 <span
+class="math inline">\(n=5000\)</span>。欸这个数据范围非常暧昧啊，感觉是留给手法的。于是卡了卡常，交了一发固定
+<span class="math inline">\(n=5000\)</span> 发现跑了 <span
+class="math inline">\(500^{+}\text{ms}\)</span>，高兴了。</p>
+<p>回去看 <em>C</em> 了，想转化一下题意跑个其他的
+DP，发现不会，看到有一个 <span class="math inline">\(n=3000\)</span>
+的点，考虑能不能优化现在的 DP。推了推式子发现是要求 <span
+class="math inline">\(O(n)\)</span> 个序列的最大值，每次有一个 push back
+的操作，因为看到有 <span class="math inline">\(nk\le1\times10^7\)</span>
+的一个点，感觉是单调队列什么的，所以先写了个 <code>set</code> 优化
+DP，发现有点问题，所以直接上了个线段树，但是还是会超时，于是又开始卡常，卡到样例
+<span class="math inline">\(600^{+}\text{ms}\)</span>，于是结束了。</p>
+<h2 id="赛后-6">赛后</h2>
+<p>期望得分：<span class="math inline">\(20+10+25+50=105\)</span>；</p>
+<p>实际得分：<span class="math inline">\(0+0+10+30=40\)</span>。</p>
+<p>评完后，发现 <em>A</em> 有 <span class="math inline">\(20\text{
+pts}\)</span>，还有 <span class="math inline">\(0\text{
+pts}\)</span>，然鹅最后一发是 <span
+class="math inline">\(0\)</span>。注意到 <em>A</em>
+题的假做法可以过小测试点，然鹅暴力会 T 小测试点。？，我直接怒了啊。</p>
+<p>然后注意到 <em>B</em> 题有一个 input: <code>n</code>；output:
+<code>1</code> 的点但是我的输出
+<code>0</code>？我直接怒了啊，怎么还带这样玩呢。</p>
+<p>然后注意到 <em>C</em> 题没冲过去，当时考完就感觉可能 <span
+class="math inline">\(k\)</span> 比较大冲不过去，但是突然发现 <span
+class="math inline">\(k\)</span> 足够大的时候就是 <span
+class="math inline">\(a_1+b_1+a_n+b_n\sum\limits_{i=2}^{n-1}([a_i&gt;0]\cdot
+a_i + [b_i&gt;0]\cdot b_i)\)</span> 了。</p>
+<p>然后又注意到 <em>D</em> 没冲过去，发现是 WA
+了，感觉是因为卡常导致取模取少了，改了真就过了。</p>
+<h2 id="总结-4">总结</h2>
+<ul>
+<li>感觉 <em>A</em> 考点是 LIS
+的理解，赛时想到了根据大小关系建图的想法，但是少考虑了一步贪心向最近的点连边的策略。</li>
+<li><em>B</em> 是 manacher +
+KMP，思路是分两类讨论，赛时没有发现这两类的讨论，感觉分类后就挺好写了。</li>
+<li><em>C</em> 是优化建图 / 模拟 Dijkstra，感觉赛时没有建图。</li>
+<li><em>D</em> 是跑容斥，<span class="sha">不会</span>。</li>
+<li><strong>常数害人不浅，一定要注重自己的常数问题，卡常时候别卡少超时，也别卡太多把正确性搞没了。</strong></li>
+</ul>
+<h1 id="代码源-noip-模拟赛-day-4">代码源 NOIP 模拟赛 Day 4</h1>
+<p><a href='http://oj.daimayuan.top/contest/269' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>哗哗哗。</p>
+</blockquote>
+<h2 id="赛时-8">赛时</h2>
+<p>先看了 <em>A</em>，发现题目只说了随一个 <span
+class="math inline">\(x\)</span>，没说干啥，傻了几分钟有 dalao
+说看一眼题目（？）写了个记忆化搜索暴力，交了发现 <span
+class="sha">输出没换行</span> 过了样例，考虑先看 <em>B</em>，一会再来看
+<em>A</em>。</p>
+<p>发现只有 <code>3.</code>、<code>4.</code> 操作随便跑一个 Topsort
+就可以了，考虑对于其他两个操作应该是建一个虚，然后连边，但是发现不是很会构造方案，就先跳了。</p>
+<p>然后看了 <em>C</em>，发现暴力比较难写，去写 <em>D</em>。写了一个
+<span class="math inline">\(O(n^3)\)</span> 暴力。</p>
+<p>这时候感觉暴力写差不多了，感觉 <em>A</em>
+和整除分块有关系，推了推式子，写了一个枚举因子后查个数的，结果比原来跑的还慢。</p>
+<p>恶心到了，想起来 <em>B</em>
+比较可做，想了一会还是不太会构造，于是写了一下暴力再看看
+<em>D</em>。</p>
+<p>本地跑了一下大样例，发现大样例 WA 了，发现 <code>!st.empty()</code>
+写成 <code>st.empty()</code> 了，改了发现本地带编译跑 <span
+class="math inline">\(4500^{+}\text{ms}\)</span>，感觉很可以卡常啊。</p>
+<p>于是卡了 <span class="math inline">\(20 \min\)</span> 的常，最后样例
+<span class="math inline">\(n=2000\)</span> 跑了 <span
+class="math inline">\(2400\text{ms}\)</span>，感觉寄了。</p>
+<p>感觉 <em>A</em>、<em>B</em> 太可做，<em>A</em>
+又写了几个方法发现还是不如暴力。</p>
+<p>然后发现 <em>D</em> 一车人过了样例两个点，发现 <span
+class="math inline">\(k=1\)</span>
+是一个本质不同的子序列计数。码了，过了。</p>
+<h2 id="赛后-7">赛后</h2>
+<p>预估 <span class="math inline">\(40+30+10+10=90\)</span>，实际 <span
+class="math inline">\(50+30+10+35=125\)</span>。</p>
+<p><span class="sha"><em>A</em> 多十分是因为测试点数错了，</span>然后
+<em>D</em> 的每个提交基本都卡过了……</p>
+<p>发现机房一车 <span class="math inline">\(125\)</span>。</p>
+<h2 id="讲评-1">讲评</h2>
+<ul>
+<li><em>A</em>
+的整除分块是再套一个根号分治，步长大于根号暴力，小于的开前缀和。</li>
+<li><em>B</em>
+确实是建图，输出方案直接从大到小赋值就行了，因为好像有一个 <span
+class="math inline">\((x)\to (y)\)</span> 的限制一定会在之前 <span
+class="math inline">\((y)\to(x)\)</span> 满足的证明。</li>
+<li><em>C</em> 是转化之后跑区间 DP，有点难。</li>
+<li><em>D</em> 不会。</li>
+</ul>
+<h2 id="总结-5">总结</h2>
+<ul>
+<li><strong>不要再卡常了！！！！！！！老老实实想题去！！！！！！！</strong></li>
+<li>感觉赛时 <em>B</em>
+的思路是对的，但是就是没太敢尝试构造，要不然感觉能过。</li>
+</ul>
+<h1 id="代码源-noip-模拟赛-day-9">代码源 NOIP 模拟赛 Day 9</h1>
+<p>T1 赛时在想从 <span class="math inline">\(i\)</span> 的答案转移到
+<span class="math inline">\(i+1\)</span> 想剪枝冲一下 5E4
+的点，但是分段写假了爆零了。赛时没想到把分母乘出去。</p>
+<p>T2 想到 DP
+了，但是推式子没退出来，然后暴力也假了，于是改了改，本来数据水能冲过去结果
+WA Sub1、TLE Sub3。</p>
+<p>T3 看到最大化期望就不太会。</p>
+<p>T4
+写了个暴力，赛后想了想，想到一个方法，但是需要动态维护区间颜色数，感觉有点寄。</p>
+<h1 id="代码源-noip-模拟赛-day-11">代码源 NOIP 模拟赛 Day 11</h1>
+<p><a href='http://oj.daimayuan.top/contest/278' target="_blank"><span>题目链接</span></a></p>
+<blockquote>
+<p>＼线段树／ ＼线段树／ ＼线段树／</p>
+</blockquote>
+<h2 id="赛时-9">赛时</h2>
+<p>先看了
+<em>A</em>，观察样例，发现每次都是向周围扩展一圈得到一个新数字，那么最终
+<span class="math inline">\(k=d(s,t)\)</span>。对大样例使用最短的，得到
+<span class="math inline">\(d(s,t)=k\)</span>，考虑构造方案，发现每次
+<span class="math inline">\(x\to y\)</span> 的边可以直接赋值为 <span
+class="math inline">\(d(s,y)\)</span>，剩下的边因为不能超过 <span
+class="math inline">\(k\)</span>，于是仅当 <span
+class="math inline">\(d(s,y)\le d(s,t)\)</span> 时赋值，其余为 <span
+class="math inline">\(0\)</span>，交了，第一发 RE，检查发现代码里有
+<code>const int M = N * N;</code>，但是 <code>int ans[N];</code>，改了
+<code>int ans[M];</code> 过了。</p>
+<p>看 <em>B</em>，发现暴力很好写，于是写了暴力。然后突然发现 <em>A</em>
+题有 <span class="math inline">\(n\le 400\)</span>，但是写了 <span
+class="math inline">\(O(n^2)\)</span>，担心假了。于是交了若干发测试 SPJ
+是否好的，发现全判掉了，于是交了一发正解走了。</p>
+<p>继续看 <em>B</em>，发现这个 <span
+class="math inline">\(O(n^2)\)</span>
+暴力很没前途，考虑换个暴力。发现每一个的数对一个区间长度的答案仅与这种颜色位置的前驱后继有关系，于是改成了
+<span class="math inline">\(O(n^3)\)</span>
+的暴力，过了样例，然后推式子，发现了贡献是三个等差数列求和 <span
+class="math inline">\(A-B-C\)</span>，考虑使用线段树维护「区间加等差数列-单点求值」，发现这样很脑残，于是改成线段树维护答案的差分数组，就变成了「区间加-区间求和」。开始写，发现假了，开始调，【数据删除】，<span
+class="math inline">\(40\min\)</span> 后发现对 <span
+class="math inline">\(\ell\sim r\)</span> 做差分时没有在 <span
+class="math inline">\(r+1\)</span>
+处还原，啊啊，服了。过了样例，交了，过了大样例，爽了。看到 <a
+href=""><span class="citation" data-cites="Sorato">@Sorato</span></a> <a
+href=""><span class="citation" data-cites="Hthntd">@Hthntd</span></a>
+的跑的飞快，于是开始卡常，去了
+<code>#define int ll</code>，特判了一点点情况，吸了口臭氧交了。</p>
+<p>然后开始看 <em>C &amp; D</em>，没看懂，考虑考虑一下
+<em>A</em>，上了个厕所，发现他 SPJ 可能偷懒写的 <span
+class="math inline">\(O(n^3)\)</span> 才开的 <span
+class="math inline">\(n\le400\)</span>，感觉很有道理。</p>
+<p>然后发现 <em>C</em> 没有 <del>邮</del>
+油箱限制随便做，加上好像不太好做，又看见 <span
+class="math inline">\(W\le10^5\)</span>，于是设 <span
+class="math inline">\(f(d,x,w)\)</span>，发现不会
+DP，于是用最短路的形式跑
+DP。然后发现寄了一点，于是【数据删除】，半个小时后过了样例，发现跑 <span
+class="math inline">\(n=100\)</span> 会 <code>RE 3</code>，不管了。</p>
+<p>然后去写
+<em>D</em>，写了个复杂度不明的暴力，但是过不了样例，发现没有保证是导出子图，于是开始改，改完了发现能过样例，就这样吧。</p>
+<p>回去检查了一下 <em>A &amp; B</em>，发现没太大问题，想了一会
+<em>C</em> 发现不会，GG。</p>
+<h2 id="赛后-8">赛后</h2>
+<p>估分：<span
+class="math inline">\(100+100+30+[0,15]=[230,245]\)</span>，</p>
+<p>实际：<span class="math inline">\(100+100+20+15=235\)</span>。</p>
+<p>发现 <em>C</em> 的第一个 <em>Subtask</em> 寄了，发现这个点 <span
+class="math inline">\(W\)</span> 的确跑不动，赛时没算好，多了个 <span
+class="math inline">\(n\log n\)</span> 没没算进去。</p>
+<h2 id="讲评-2">讲评</h2>
+<ul>
+<li><em>A</em> 的 SPJ 好像可以写到很快，这个问题感觉可以想想。</li>
+<li><em>B</em> 有一个两次差分的做法，感觉常数极小。</li>
+<li><em>C</em> 发现只有卡满油到下一个点，和加满油两种情况，分开 DP
+就好了。</li>
+<li><em>D</em> 智慧题……</li>
+</ul>
+<h2 id="总结-6">总结</h2>
+<ul>
+<li>感觉这场还行。</li>
+<li><em>A</em> 猜的结论，挺对，但是有点不自信，耽误了一会。</li>
+<li><em>B &amp; C</em> 调试时间过长，细节问题没有很快找到。</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%AF%94%E8%B5%9B%E6%80%BB%E7%BB%93/" rel="tag"># 比赛总结</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/11/21/%E6%A8%A1%E6%8B%9F%E8%B5%9B%E6%80%BB%E7%BB%93/" rel="prev" title="模拟赛总结">
+                  <i class="fa fa-angle-left"></i> 模拟赛总结
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Heldivis</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/heldivis" class="github-corner" title="在 GitHub 上关注我" aria-label="在 GitHub 上关注我" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
